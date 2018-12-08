@@ -6,5 +6,22 @@
   </head>
   <body>
     <h1>Hello World!</h1>
+ 
+    {{ "hi" | capitalize }}
+
+    <ul>
+    {% for artist in site.data.lib %}
+      <li>
+	{{ artist }}
+
+	<ul>
+	  { % for title in artist.songs % }
+	    <li>{{ title }}</li>
+	  {% endfor %}
+	</ul>
+      </li>
+
+    {% endfor %}
+    </ul>
   </body>
 </html>
