@@ -2,8 +2,16 @@ theme: jekyll-theme-time-machine
 sass:
     sass_dir: _sass
 
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+assets:
+  digest: true
+  compress:
+    css:  true
+  prefix: "/assets"
+  sources:
+    - _assets/
+    - _assets/js
+    - _assets/css
+    - _assets/javascript
+    - _assets/stylesheets
+    - _assets/img
+    - _assets/fonts
