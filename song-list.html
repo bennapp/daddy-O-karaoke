@@ -1,0 +1,16 @@
+---
+---
+
+<ul>
+  {% for artist in site.data.lib %}
+  <li>
+    {{ artist.name }}
+
+    <ul>
+      {% for song in artist.songs %}
+      <li>{{ song.title }}</li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,25 @@
+.current {
+  color: green;
+}
+
+h1 {
+  color: red;
+}
+
+.link {
+  margin-bottom: 20px;
+}
+
+.truck {
+  width: 400px;
+  height: auto;
+}
+
+.flex-center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+

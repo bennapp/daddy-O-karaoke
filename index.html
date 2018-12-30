@@ -5,22 +5,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Daddy-O-Karaoke</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    <ul>
-    {% for artist in site.data.lib %}
-      <li>
-	{{ artist.name }}
-
-	<ul>
-	  {% for song in artist.songs %}
-	    <li>{{ song.title }}</li>
-	  {% endfor %}
-	</ul>
-      </li>
-
-    {% endfor %}
-    </ul>
+    <div class="flex-center">
+      <h1>Daddy-O-Karaoke</h1>
+      <nav class="flex-center">
+        <a class="link" href="/song-list.html">Full Song List</a>
+        <a class="link" href="/favorites.html">Favorites</a>
+      </nav>
+      <img class="truck" src="/assets/img/truckvw2.png">
+    </div>
   </body>
 </html>
