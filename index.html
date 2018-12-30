@@ -13,10 +13,10 @@ baseurl: ""
 <div class="flex-center">
   <h1>Daddy-O-Karaoke</h1>
   <nav class="flex-center">
-    <a class="link" href="/song-list.html">Full Song List</a>
-    <a class="link" href="/favorites.html">Favorites</a>
+    <a class="link" href="{{ "/song-list.html" | prepend: site.baseurl }}">Full Song List</a>
+    <a class="link" href="{{ "/favorites.html" | prepend: site.baseurl }}">Favorites</a>
   </nav>
-  <img class="truck" src="/assets/img/truckvw2.png">
+  <img class="truck" src="{{ "/assets/img/truckvw2.png" | prepend: site.baseurl }}">
 </div>
 </body>
 </html>
