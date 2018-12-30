@@ -11,7 +11,12 @@ baseurl: ""
 </head>
 <body>
 <div class="flex-center">
-  <h1>Daddy-O-Karaoke</h1>
+  <div class="header">
+    <img class="bird bird-left" src="{{ "/assets/img/bird.png" | prepend: site.baseurl }}">
+    <h1>Daddy-O-Karaoke</h1>
+    <img class="bird bird-right" src="{{ "/assets/img/bird.png" | prepend: site.baseurl }}">
+  </div>
+
   <nav class="flex-center">
     <a class="link" href="{{ "/song-list" | prepend: site.baseurl }}">Full Song List</a>
     <a class="link" href="{{ "/favorites" | prepend: site.baseurl }}">Favorites</a>

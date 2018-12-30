@@ -3,15 +3,40 @@
 }
 
 h1 {
-  color: red;
+  color: white;
+  font-size: 72px;
+  font-weight: bolder;
+
+  -webkit-text-stroke: 1px red;
+  text-shadow:
+    4px 4px 0 red,
+    -2px -2px 0 red,
+    2px -2px 0 red,
+    -2px 2px 0 red,
+    2px 2px 0 red;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.bird {
+  width: auto;
+  height: 170px;
+}
+
+.bird-left {
+  transform: scaleX(-1);
 }
 
 .link {
   margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .truck {
-  width: 400px;
+  width: 80%;
   height: auto;
 }
 

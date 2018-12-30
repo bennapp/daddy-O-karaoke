@@ -1,9 +1,15 @@
 .current { color: green; }
 
-h1 { color: red; }
+h1 { color: white; font-size: 72px; font-weight: bolder; -webkit-text-stroke: 1px red; text-shadow: 4px 4px 0 red, -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red; }
 
-.link { margin-bottom: 20px; }
+.header { display: flex; justify-content: center; }
 
-.truck { width: 400px; height: auto; }
+.bird { width: auto; height: 170px; }
+
+.bird-left { transform: scaleX(-1); }
+
+.link { margin-bottom: 20px; font-size: 36px; }
+
+.truck { width: 80%; height: auto; }
 
 .flex-center { height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column; }
