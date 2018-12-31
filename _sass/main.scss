@@ -16,6 +16,27 @@ h1 {
     2px 2px 0 red;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+.artist {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.artists {
+  margin-bottom: 12px;
+}
+
+.song {
+  font-size: 22px;
+}
+
 .header {
   display: flex;
   justify-content: center;

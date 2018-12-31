@@ -2,14 +2,25 @@
 permalink: /song-list/
 ---
 
+<head>
+  <meta charset="utf-8">
+  <title>Daddy-O-Karaoke</title>
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
+</head>
+
+<div class="header">
+  <h1>Song List</h1>
+</div>
+
+
 <ul>
   {% for artist in site.data.lib %}
-  <li>
-    {{ artist.name }}
+  <li class="artists">
+    <span class="artist">{{ artist.name }}</span>
 
     <ul>
       {% for song in artist.songs %}
-      <li>{{ song.title }}</li>
+      <li class="song">{{ song.title }}</li>
       {% endfor %}
     </ul>
   </li>
